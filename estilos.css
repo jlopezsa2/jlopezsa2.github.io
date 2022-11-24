@@ -1,0 +1,110 @@
+
+body{
+    font-size: 62.5%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: wheat;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 40, 40);
+}
+header h1{
+        font-size: 3rem;
+        font-style: italic;
+        margin: auto;
+        color: rgb(9, 195, 211);
+
+}
+img#principal{
+    width: 100%;
+    border-radius: 1rem;
+    align-self: flex-end;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+h3{
+    font-size: 2rem;
+    color: rgb(13, 151, 29);
+}
+
+nav{
+    font-size: 2rem;
+}
+.contenedor{
+    display: flex;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+nav ul {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    border-radius: 2rem;
+}
+nav ul li{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana;
+    text-decoration: none;
+    font-style: italic;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(29, 231, 11);
+}
+section#s1 p{
+    font-size: 1.5rem;
+    border: 1rem;
+    border-color: black;
+}
+table {
+    width: 80%;
+    border: 3px solid purple;
+    height: 40rem;
+  
+  }
+
+  table tr th{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgb(12, 197, 154);
+  }
+  table tr td{
+    font-size: 1.5rem;
+    border: 1px #000;
+    text-align: center;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  th td {
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+ section#s2 ul li{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  
+}
+section#s3 p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  
+}
+section#s4 p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  
+}
+
